@@ -131,6 +131,7 @@ class _VerticalTabsState extends State<VerticalTabs>
                             child = tab.child;
                           } else {
                             child = Container(
+                              height: 150,
                                 padding: EdgeInsets.all(10),
                                 child: Row(
                                   children: <Widget>[
